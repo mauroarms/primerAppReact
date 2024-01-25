@@ -1,11 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-const Informacion = () => {
+const Informacion = (props) => {
   return (
     <>
       <h1 className='text-center'>Soy Maurito</h1>
       <section className='container'>
         <h2>Hola mundo desde React!</h2>
+        <h3>{props.tituloSecundario}</h3>
         <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum numquam consequuntur laborum blanditiis possimus corporis dignissimos facilis, quo earum ipsum veritatis tempore aliquam atque est adipisci deleniti iusto, consectetur ratione!
         </p>

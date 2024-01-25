@@ -12,7 +12,7 @@ function App() {
     // Maquetado que va a dibujar el componente 
     <> 
       {/* <Informacion></Informacion> */}
-      <Informacion/>
+      <Informacion tituloSecundario="Este titulo fue creado con un props"/>
       
     </>
   )
