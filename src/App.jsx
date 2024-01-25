@@ -1,11 +1,19 @@
+//Importaciones de componentes
+
 import Informacion from "./components/Informacion"
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   
   return (
-    <>
-      <h1>Prueba</h1>
-      <Informacion></Informacion>
+
+    // Lógica del Componente
+
+    // Maquetado que va a dibujar el componente 
+    <> 
+      {/* <Informacion></Informacion> */}
+      <Informacion/>
+      
     </>
   )
 }
